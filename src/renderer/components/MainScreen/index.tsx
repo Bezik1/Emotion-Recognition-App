@@ -101,6 +101,12 @@ export const EmotionRecognizer = (): JSX.Element => {
         <div className="emotion-recognizer">
             <div className="div">
                 <div className="overlap">
+                  <svg className="line-1" xmlns="http://www.w3.org/2000/svg" width="190" height="380" viewBox="0 0 190 380" fill="none">
+                    <path d="M180.273 1.00001C222.999 296.273 53.5533 374.542 -36.5101 376.768" stroke="#A4F6CC" stroke-width="5"/>
+                  </svg>
+                  <svg className="line-2" xmlns="http://www.w3.org/2000/svg" width="190" height="380" viewBox="0 0 190 380" fill="none">
+                    <path d="M180.273 1.00001C222.999 296.273 53.5533 374.542 -36.5101 376.768" stroke="#A4F6CC" stroke-width="5"/>
+                  </svg>
                     <div 
                         className="image-frame"
                         onDragOver={handleDragOver}

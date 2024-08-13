@@ -15,8 +15,10 @@
 
 .logo {
     position: absolute;
-    top: -17px;
-    width: 75px;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 .emotion-recognizer .overlap {
@@ -29,7 +31,7 @@
 
 .emotion-recognizer .image-frame {
     background-color: #212e37;
-    border: 3px dashed;
+    border: 5px dashed;
     border-color: #a4f6cc;
     border-radius: 40px;
     height: 374px;
@@ -37,6 +39,25 @@
     position: absolute;
     top: 0;
     width: 392px;
+}
+
+.line-1 {
+    position: absolute;
+    left: -30%;
+    top: -40%;
+    flex-shrink: 0;
+    stroke-width: 5px;
+    stroke: #A4F6CC;
+}
+
+.line-2 {
+    position: absolute;
+    right: -11%;
+    transform: rotate(200deg);
+    bottom: -20%;
+    flex-shrink: 0;
+    stroke-width: 5px;
+    stroke: #A4F6CC;
 }
 
 .emotion-recognizer .neutral-emoji {
